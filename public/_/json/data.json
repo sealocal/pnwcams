@@ -1,5 +1,5 @@
 {
-  "locations": [{
+  "snow": [{
     "name": "Snoqualmie Pass",
     "category": "snow",
     "latitude": "47.44",
@@ -11,9 +11,7 @@
       "name": "Alpental Base",
       "url": "http://www.summitatsnoqualmie.com/webcams/Alpcam.jpg"
     }, {
-      "na
-      me ": "
-      Summit Central ",
+      "name ": "Summit Central ",
       "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
     }, {
       "name": "Silver Fir",
@@ -124,7 +122,8 @@
       "name": "Midway",
       "url": "http://missionridge.com/webcam/Tmissioncam2.jpg"
     }]
-  }, {
+  }],
+  "surf": [{
     "name": "Westport",
     "category": "surf",
     "latitude": "46.90",

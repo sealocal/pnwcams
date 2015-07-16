@@ -4,11 +4,6 @@ var Webcams = require('../components/Webcams/Webcams');
 
 var Terrain = React.createClass({
   mixins: [Router.State],
-  getInitialState: function() {
-    return {
-      destinations: ['Westport', 'La Push']
-    }
-  },
   render: function() {
     var terrain = this.getParams().terrain;
     return (
@@ -16,7 +11,7 @@ var Terrain = React.createClass({
         <div className="section-card">
           <h1>{terrain} Cams</h1>
         </div>
-        <Webcams destinations={this.state.destinations} />
+        <Webcams terrain={terrain} />
       </div>
     );
   }
